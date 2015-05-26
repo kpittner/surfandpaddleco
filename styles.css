@@ -210,27 +210,13 @@ aside h5 {
   clear:both;
   }
 
-.footer ul li {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  color: grey;
-}
-
 .footer2 {
   background-color: #224681;
   border-color: #224681;
   height: 75px;
   border-style: solid;
   clear: both;
-}
-
-
-.footer img {
-  width: 350px;
-  height: 358px;
-  display: inline-block;
-  float: left;
+  margin-top: -5px;
 }
 
 .footer2 p {
@@ -262,17 +248,31 @@ aside h5 {
   float: left;
 }
 
+nav {
+  float: right;
+}
+
 footer {
   clear: both;
 }
 
-.footer > li {
-  float: left;
+footer ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer>li {
   position: relative;
   display: inline-block;
-  width: 25%;
+  width: 359px;
+  height: 354px;
   margin: 0;
-  padding: 0;
+}
+
+.footer img {
+  width: 360px;
+  height: 350px;
 }
 
 .footer li:hover {
