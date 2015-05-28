@@ -243,7 +243,6 @@ aside h5 {
 .footer2 img {
   width: 50px;
   height: 50px;
-  padding-left: 100px;
   padding-top: 10px;
   float: left;
 }
@@ -271,7 +270,7 @@ footer ul {
 }
 
 .footer img {
-  width: 360px;
+  width: 100%;
   height: 350px;
 }
 
@@ -284,4 +283,384 @@ footer ul {
   bottom: 5px;
   left: 5px;
   color: white;
+}
+
+
+/********************tablet size************************/
+
+@media screen and (max-width: 1024px) {
+
+  #text {
+    color: white;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 0;
+    top: 30%;
+    left: 32%;
+  }
+
+  header img {
+    top: 0;
+    left: 0;
+    width: 1024px;
+  }
+
+  #heading {
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 20px;
+    padding-left: 800px;
+    top: 0;
+  }
+
+  #heading li:hover {
+    color: grey;
+  }
+
+  #leftheading img{
+    padding-left: 5px;
+    height: 30px;
+    width: 30px;
+  }
+
+  section {
+    float: left;
+    width: 60%;
+    margin: 0;
+  }
+
+  section h1 {
+    font-size: 35px;
+    padding-left: 50px;
+  }
+
+  section h5 {
+    padding-left: 30px;
+    display: inline;
+  }
+
+  section p {
+    margin-left: 50px;
+    margin-right: 150px;
+  }
+
+  section img {
+    width: 20px;
+    height: 20px;
+    padding-left: 50px;
+    float: left;
+  }
+
+  .media img {
+    width: 130px;
+    height: 30px;
+    padding-left: 0;
+    bottom: 90%;
+    margin: 3px;
+  }
+
+  aside {
+    float: left;
+    margin: 0;
+    width: 30%;
+  }
+
+  aside img {
+    width: 80px;
+    height: 80px;
+    padding-left: 130px;
+    top: 80%;
+  }
+
+  aside h4 {
+    padding-left: 120px;
+    color: #0080FF;
+    font-weight: lighter;
+    font-family: sans-serif;
+  }
+
+  aside h5 {
+    padding-left: 70px;
+    color: #D8D8D8;
+    font-weight: lighter;
+    font-family: sans-serif;
+  }
+
+  .picture2 img {
+    width: 350px;
+    height: 400px;
+    padding-right: 30px;
+    top: 50%;
+  }
+
+  .picture2 p {
+    width: 320px;
+  }
+
+  .picture2 h6 a {
+    padding-left: 240px;
+    color: grey;
+  }
+
+  .popular h1{
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .footer img {
+    width: 255px;
+    height: 350px;
+  }
+
+  footer ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+}
+
+/********************Mobile size************************/
+
+@media screen and (max-width: 568px) {
+
+  #text {
+    color: white;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 0;
+    top: 40%;
+    left: 32%;
+  }
+
+  header img {
+    top: 0;
+    left: 0;
+    width: 568px;
+  }
+
+  header ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+    float: right;
+  }
+
+  #heading {
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 20px;
+    padding-left: 360px;
+    top: 0;
+  }
+
+  #heading li:hover {
+    color: grey;
+  }
+
+  #leftheading {
+    color: black;
+    list-style-type: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 15px;
+    padding-left: 0;
+    top: 0;
+  }
+
+  #leftheading img{
+    padding-left: 0;
+    height: 30px;
+    width: 30px;
+  }
+
+  #middleheading {
+    color: black;
+    display: inline-block;
+    font-weight: lighter;
+    list-style-type: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 0;
+    top: 45%;
+    left: 42%;
+  }
+
+  section {
+    width: 100%;
+    padding-left: 50px;
+  }
+
+  section h1 {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  section h5 {
+    padding-left: 30px;
+    display: inline;
+  }
+
+  section p {
+    margin-left: 50px;
+    margin-right: 150px;
+  }
+
+  section img {
+    width: 20px;
+    height: 20px;
+    padding-left: 50px;
+    float: left;
+  }
+
+  .woah {
+    font-size: 20px;
+    border-left: 2px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: grey;
+    padding: 8px;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+
+  .media img {
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    bottom: 90%;
+    margin: 3px;
+  }
+
+  aside {
+    width: 100%;
+    padding-left: 100px;
+  }
+
+  aside img {
+    width: 80px;
+    height: 80px;
+    padding-left: 130px;
+    top: 80%;
+  }
+
+  aside h4 {
+    padding-left: 120px;
+    color: #0080FF;
+    font-weight: lighter;
+    font-family: sans-serif;
+  }
+
+  aside h5 {
+    padding-left: 70px;
+    color: #D8D8D8;
+    font-weight: lighter;
+    font-family: sans-serif;
+  }
+
+  .picture2 img {
+    width: 350px;
+    height: 400px;
+    padding-right: 30px;
+    top: 50%;
+  }
+
+  .picture2 p {
+    width: 320px;
+  }
+
+  .picture2 h6 a {
+    padding-left: 240px;
+    color: grey;
+  }
+
+  .popular {
+    padding-left: 120px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 20px;
+    width: 100%;
+    height: 150px;
+    border-top: 2px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #D8D8D8;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+    clear: both;
+  }
+
+  .popular h1{
+    padding-left: 20px;
+  }
+
+  .footer img {
+    width: 100%;
+    height: 200px;
+  }
+
+  footer {
+    clear: both;
+  }
+
+  footer ul {
+    padding: 0;
+    margin: 0;
+    display: table-row;
+  }
+
+  .footer>li {
+    position: relative;
+    margin: 0;
+    height: inherit;
+    width: 100%;
+  }
+
+  .footer > li h3 {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    color: white;
+  }
+
+  .footer2 p {
+    display: inline;
+    width: 50px;
+    height: 7px;
+    padding-left: 5px;
+  }
+
+  .footer2 img {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    float: left;
+  }
+
+  nav {
+    float: right;
+    font-size: 25px;
+  }
+
+  .footer2 li:hover {
+    color: white;
+    padding-bottom: 15px;
+  }
 }
