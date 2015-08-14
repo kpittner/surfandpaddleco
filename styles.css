@@ -182,7 +182,7 @@ aside h5 {
 }
 
 .popular {
-  padding-left: 350px;
+  padding-left: 440px;
   font-family: sans-serif;
   font-weight: lighter;
   font-size: 30px;
@@ -267,6 +267,7 @@ footer ul {
   width: 359px;
   height: 354px;
   margin: 0;
+  width: 25%;
 }
 
 .footer img {
